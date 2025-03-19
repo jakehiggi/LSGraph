@@ -502,7 +502,7 @@ class MainWindow(QMainWindow):
                 self.separate_data(f, tail_noext)
                 self.update_fileTree_sheet(f, tail_noext)
 
-    @pyqtSlot("QTreeWidgetItem, int")
+    #@pyqtSlot("QTreeWidgetItem, int")
     def treeDoubleClicked(self, item, column):
         """
         Handles double-click events on the tree items:
